@@ -1,0 +1,43 @@
+.navbar{
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  transition: .8s;
+}
+.itemNavbar{
+  margin-left: 10px;
+  transition: 1s;
+}
+
+#logoSection1{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transition: .5s;
+}
+
+.divPrincipale{
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 10vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  transition: .8s;
+}
