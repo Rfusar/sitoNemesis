@@ -1,0 +1,45 @@
+main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10%;
+  gap: 30px
+}
+.card a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+main div{
+  background-color: var(--bg-base2);
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--text-base);
+  position: relative;
+  height: 100%;
+}
+main div:nth-child(1){
+  border-left: 5px solid purple;
+}
+main div:nth-child(2){
+  border-left: 5px solid #1ab3c4;
+}
+main div:nth-child(3){
+  border-left: 5px solid #c4281a;
+}
+main div:nth-child(4){
+  border-left: 5px solid #10cc17;
+}
+
+main div h1{
+  font-style: italic;
+  position: absolute;
+  pointer-events: none;
+  color: var(--text-base);
+}
+main div p{
+  position: absolute;
+  top: 30%;
+  color: var(--text-base);
+}

@@ -1,0 +1,14 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bg-base2);
+  width: 100%;
+  color: var(--text-base);
+  height: 8vh;
+}
+nav img{
+  position: absolute;
+  top: 2.5%;
+  left: 2%;
+}
