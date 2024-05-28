@@ -1,6 +1,7 @@
 export default function AnimationCard(gsap){
     for(const c of document.querySelectorAll(".card")){
       const color = c.getAttribute("color")
+      c.style.borderLeft = "5px solid "+color 
       const child = c.children[0].children
       const titleSize = window.getComputedStyle(child[0])
       const font_size = Number(titleSize.fontSize.replace("px", ""))

@@ -1,0 +1,37 @@
+
+aside{
+  flex: 1;
+  border-right: 1px solid #fff3;
+  padding: 30px 0 0 20px;
+  color: var(--text-base)
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.titoloArticolo{
+  text-align: center;
+  font-size: 4rem
+}
+article{
+  flex: 8;
+  color: var(--text-base);
+  padding: 20px;
+}
+.lineaTitolo{
+  height: 1px;
+  background-color: #fff;
+  margin: 20px 10% 50px 10%;
+}
+pre{
+  padding: 10px;
+  background-color: var(--bg-base2);
+  width: max-content;
+  border-radius: 20px;
+  margin: 10px 0 10px 40px;
+}
+code{
+  font-size: .8rem
+}
+

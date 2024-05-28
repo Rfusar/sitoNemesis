@@ -12,12 +12,12 @@ export default function Homepage_init(){
   }, [])
 
   return (
-    <main>
+    <main id="homepageMain">
       {cards.map((e,i)=>(
         <div className="card" color={e.color} key={i}>
           <Link to={e.title}>
-            <h1>{e.title}</h1>
-            <p>{e.description}</p>
+            <h1 className="titoloCard">{e.title}</h1>
+            <p className="paragCard">{e.description}</p>
           </Link>
         </div>
       ))}   

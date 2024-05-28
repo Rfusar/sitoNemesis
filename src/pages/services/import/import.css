@@ -1,0 +1,25 @@
+#mainImport{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  height: 200vw
+}
+#containerLogin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+#containerWork{
+  display: flex;
+  flex-direction: row;
+}
+#descrizioneWork{
+  margin-left: 50px
+}
+.cardImport{
+  margin-left: 50px;
+}
+.sottotitoli{
+  margin: 100px 0 20px 0;
+  font-style: italic
+}

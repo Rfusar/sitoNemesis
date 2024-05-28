@@ -1,4 +1,4 @@
-main{
+#homepageMain{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 10%;
@@ -11,7 +11,7 @@ main{
   padding: 20px;
 }
 
-main div{
+.card{
   background-color: var(--bg-base2);
   border-radius: 20px;
   cursor: pointer;
@@ -19,26 +19,14 @@ main div{
   position: relative;
   height: 100%;
 }
-main div:nth-child(1){
-  border-left: 5px solid purple;
-}
-main div:nth-child(2){
-  border-left: 5px solid #1ab3c4;
-}
-main div:nth-child(3){
-  border-left: 5px solid #c4281a;
-}
-main div:nth-child(4){
-  border-left: 5px solid #10cc17;
-}
 
-main div h1{
+.titoloCard{
   font-style: italic;
   position: absolute;
   pointer-events: none;
   color: var(--text-base);
 }
-main div p{
+.paragCard{
   position: absolute;
   top: 30%;
   color: var(--text-base);
