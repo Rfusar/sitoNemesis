@@ -44,6 +44,11 @@ const cards = [
     title: "Intelligenza Artificiale",
     description: "Servizio che comunica con AI",
     color: "#10cc17"
+  },
+  {
+    title: "Email",
+    description: "Servizio per invio email",
+    color: "blue"
   }
 ]
 

@@ -9,12 +9,12 @@ export default function AnimationCard(gsap){
       c.addEventListener("mouseover", ()=>{
         child[1].style.visibility = "hidden"
         gsap.to(c, {
-          duration: 0.5,
+          duration: 0.3,
           backgroundColor: color,
           borderLeft: "20px solid #0f164d"
         })
         gsap.to(child[0], {
-          duration: 0.5,
+          duration: 0.3,
           position: "absolute",
           top: "15%",
           fontSize: (font_size*1.5)+"px"
@@ -25,12 +25,12 @@ export default function AnimationCard(gsap){
       c.addEventListener("mouseout", ()=>{
         child[1].style.visibility = "visible"
         gsap.to(c, {
-          duration: 0.5,
+          duration: 0.3,
           backgroundColor: "#0f164d",
           borderLeft: "5px solid "+color
         })
         gsap.to(child[0], {
-          duration: 0.5,
+          duration: 0.3,
           top: "5%",
           fontSize: font_size+"px"
         })

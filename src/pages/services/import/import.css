@@ -1,9 +1,3 @@
-#mainImport{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  height: 200vw
-}
 #containerLogin{
   display: flex;
   flex-direction: row;
