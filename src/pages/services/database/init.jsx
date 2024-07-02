@@ -4,7 +4,7 @@ import Article from './article.jsx'
 import '../services.css'
 import './database.css'
 
-export default function Email_init(){
+export default function Database_init(){
   return (
     <main className="_main">
       <Sidebar itemsSidebar={i_Sidebar} />
@@ -16,14 +16,14 @@ export default function Email_init(){
 const i_Sidebar = [
     {
         "link": "#introduzione-mdb",
-        "text": "> Introduzione -MDB"
+        "text": "Introduzione -MDB"
     },
     {
         "link": "#richiesta-mdb",
-        "text": "> Richiesta -MDB"
+        "text": "Richiesta -MDB"
     }, 
     {
         "link": "#risposta-mdb",
-        "text": "> Risposta -MDB"
+        "text": "Risposta -MDB"
     }
 ]

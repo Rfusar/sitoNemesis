@@ -17,12 +17,11 @@ export default function Article(){
             <p><b>from</b>: decidi con quale email inviare l'email --> NB: l'email deve essere legato al dominio</p>
             <p><b>to</b>: decidi a chi inviare l'email</p>
             <p><b>subject</b>: oggetto email</p>
-            <p><b>body</b>: puo avere due valori la key dell'oggetto:
-                <ul style={{margin: "5px 0 0 30px"}}>
-                    <li>text --> l'email sarà composta da testo</li>
-                    <li>html --> l'email sarà composta da html</li>
-                </ul>
-            </p>
+            <p><b>body</b>: puo avere due valori la key dell'oggetto:</p>
+            <ul style={{margin: "5px 0 0 30px"}}>
+                <li>text --> l'email sarà composta da testo</li>
+                <li>html --> l'email sarà composta da html</li>
+            </ul>
         </section>
         <h1 id="richiesta" className="sottotitoli">Richiesta</h1>
         <section className="section">

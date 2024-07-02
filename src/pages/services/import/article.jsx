@@ -2,8 +2,8 @@ export default function Article(){
   return (
     <article>
       <h1 className="titoloArticolo">IMPORT</h1>
-      <h1 id="#introduzione" className="sottotitoli">Introduzione</h1>
       <div className="lineaTitolo"></div>
+      <h1 id="#introduzione" className="sottotitoli">Introduzione</h1>
       <p>Il file di configurazione si divide in 4 campi: <b>Login</b>, <b>Work</b>, <b>Response</b>, <b>Dashboard</b>.</p>
      
       <h1 className="sottotitoli">Login</h1>

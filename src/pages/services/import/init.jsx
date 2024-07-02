@@ -17,15 +17,15 @@ export default function Import_init(){
 const i_Sidebar = [
     {
         "link": "#introduzione",
-        "text": "> Introduzione"
+        "text": "Introduzione"
     },
     {
         "link": "#richiesta",
-        "text": "> Richiesta"
+        "text": "Richiesta"
     }, 
     {
         "link": "#risposta",
-        "text": "> Risposta"
+        "text": "Risposta"
     }
 ]
 

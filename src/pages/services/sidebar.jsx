@@ -13,10 +13,9 @@ export default function Sidebar({itemsSidebar}){
     return (
         <aside>
             <ul>
-                {itemsSidebar.map((e, i)=>(
-                <li key={i} className="pointer" onClick={(event) => handleClick(event, e.link)}>
-                    <a href={e.link}>{e.text}</a>
-                </li> ))}
+            {itemsSidebar.map((e, i)=>(
+                <li key={i} className="pointer itemSidebar" onClick={(event) => handleClick(event, e.link)}>{e.text}</li> 
+            ))}
             </ul>
         </aside>
   )
