@@ -3,6 +3,7 @@ export default function Article(){
     <article>
         <h1 className="titoloArticolo">Email</h1>
         <div className="lineaTitolo"></div>
+        <h1 id="introduzione">Introduzione</h1>
         <section className="section">
             <p>API per inviare email, Key Importanti per la richiesta:</p>
             <ul className="elencoKeyForRequest">
@@ -23,7 +24,7 @@ export default function Article(){
                 </ul>
             </p>
         </section>
-        <h1 className="sottotitoli">Richiesta</h1>
+        <h1 id="richiesta" className="sottotitoli">Richiesta</h1>
         <section className="section">
             <p>Endpoint /email</p>
         </section>
@@ -31,7 +32,7 @@ export default function Article(){
             Esempio in Python
             <code>{codeReq}</code>            
         </pre> 
-        <h1 className="sottotitoli">Risposta</h1>
+        <h1 id="risposta" className="sottotitoli">Risposta</h1>
         <p>La richiesta ritorna un esito</p>
     </article>
   )

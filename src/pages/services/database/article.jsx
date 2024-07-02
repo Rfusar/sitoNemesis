@@ -1,11 +1,11 @@
 import './database.css'
-
 export default function Article(){
   return (
     <article>
         <h1 className="titoloArticolo">Database</h1>
         <div className="lineaTitolo"></div>
-        <h1><i>MongoDB</i></h1>
+        <h1 style={{textAlign: "center"}}><i>MongoDB</i></h1>
+        <h1 id="introduzione-mdb">Introduzione</h1>
         <section className="section">
             <p>API per interagire con MongoDB, Key Importanti per la richiesta:</p>
             <ul className="elencoKeyForRequest">
@@ -20,7 +20,7 @@ export default function Article(){
             <p><b>tags</b>: la "key" identifica il paramentro della collection invece il "value" è il valore da cercare</p>
             <p><b>filtri</b>: la "key" identifica il paramentro della collection invece il valore puo essere 0 per escludere e 1 per includere nella risposta</p>
         </section>
-        <h1 className="sottotitoli">Richiesta</h1>
+        <h1 id="richiesta-mdb" className="sottotitoli">Richiesta</h1>
         <section className="section">
             <p>per capire meglio puoi andare e vedere: <i>https://www.mongodb.com/docs/manual/tutorial/query-documents/</i></p>
             <p>Endpoint disponibili:</p>
@@ -35,7 +35,7 @@ export default function Article(){
             Esempio in Python
             <code>{codeReq}</code>
         </pre> 
-        <h1 className="sottotitoli">Risposta</h1>
+        <h1 id="risposta-mdb" className="sottotitoli">Risposta</h1>
         <p>La richiesta ritorna un esito oppure un JSON</p>
     </article>
   )

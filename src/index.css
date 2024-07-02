@@ -33,3 +33,6 @@ main{
 li{
   list-style: none;
 }
+article{
+    overflow-y: auto;
+}

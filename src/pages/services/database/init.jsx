@@ -14,5 +14,16 @@ export default function Email_init(){
 }
 
 const i_Sidebar = [
-    "> Introduzione -MDB", "> Richiesta -MDB", "> Risposta -MDB"
+    {
+        "link": "#introduzione-mdb",
+        "text": "> Introduzione -MDB"
+    },
+    {
+        "link": "#richiesta-mdb",
+        "text": "> Richiesta -MDB"
+    }, 
+    {
+        "link": "#risposta-mdb",
+        "text": "> Risposta -MDB"
+    }
 ]

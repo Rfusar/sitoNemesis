@@ -15,5 +15,17 @@ export default function Import_init(){
 }
 
 const i_Sidebar = [
-    "> Introduzione", "> Richiesta", "> Risposta"
+    {
+        "link": "#introduzione",
+        "text": "> Introduzione"
+    },
+    {
+        "link": "#richiesta",
+        "text": "> Richiesta"
+    }, 
+    {
+        "link": "#risposta",
+        "text": "> Risposta"
+    }
 ]
+
