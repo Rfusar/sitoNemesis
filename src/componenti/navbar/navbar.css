@@ -1,0 +1,13 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    height: 7vh;
+}
+
+#navbar > div > span {
+    margin-left: 50px;
+}

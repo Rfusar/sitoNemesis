@@ -1,0 +1,146 @@
+#section1{
+    background-image: url("/src/assets/sfondoHomepage1.jpg");
+    height: 93vh;
+    display: flex;
+}
+
+#section2{
+    background-image: url("/src/assets/sfondoHomepage2.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+#section3{
+    background-image: url("/src/assets/sfondoHomepage3.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+#container1Section1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+}
+#container2Section1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    z-index: 2;
+}
+#container1Section2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+#container2Section2{
+    flex: 2;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 50px;
+}
+
+#card1Section2{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 0;
+}
+
+.cardSection2{
+    padding: 30px;
+    height: 80%;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 1.5rem; 
+}
+
+.imgCardSection2{
+    width: 100px;
+}
+.intestazioneCardSection2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnDettagli{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#cardDescription1{border-left: 20px solid red;}
+#cardDescription2{border-left: 20px solid blue;}
+#cardDescription3{border-left: 20px solid green;}
+
+#card1Section3, #card2Section3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #0007;
+}
+
+
+
+#card2Section3 > form{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 50%;
+    padding: 50px 30px;
+    background-color: #fff;
+    color: #000;
+}
+#card2Section3 > form > input{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#card2Section3 > form > textarea{
+    height: 70%;
+    padding: 10px;
+}
+#divAction{
+    margin-top: 35px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#divAction > img{
+    width: 30px;
+}
