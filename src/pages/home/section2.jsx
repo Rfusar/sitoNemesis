@@ -2,7 +2,7 @@ import './homepage.css'
 
 export default function Section_due(){
     return (
-        <section id="section2" className="sfondo">
+        <section id="section2">
             <div id="container1Section2">
                 <div id="card1Section2">
                     <p style={{color: "#000", fontSize: "1.5rem", padding: "15px"}}>
@@ -27,7 +27,7 @@ export default function Section_due(){
                             applicazioni moderne. Nemesis è full-stack service development.
                         </p>
                     </div>
-                    <button className="btnDettagli">Vedi Dettagli</button>
+                    <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
 
                 <div className="cardSection2" id="cardDescription2">
@@ -41,7 +41,7 @@ export default function Section_due(){
                             Sviluppa applicazioni e funzioni adeguate ai tuoi obiettivi.
                         </p>
                     </div>
-                    <button className="btnDettagli">Vedi Dettagli</button>
+                    <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
         
                 <div className="cardSection2" id="cardDescription3">
@@ -55,7 +55,7 @@ export default function Section_due(){
                             dell'azienda, disegnando processi, servizi e applicazioni a misura d'essere umano.
                         </p>
                     </div>
-                    <button className="btnDettagli">Vedi Dettagli</button>
+                    <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
             </div>
 
