@@ -1,7 +1,7 @@
 /*SFONDI*/
 #section1{
     background-image: url("/src/assets/sfondoHomepage1.jpg");
-    height: 93vh;
+    height: 100vh;
     display: flex;
 }
 
@@ -45,6 +45,7 @@
     justify-content: space-around;
     color: #fff;
     background-color: #0009;
+    padding: 80px 50px 0 0;
 }
 #cardServices{
     flex: 2; 

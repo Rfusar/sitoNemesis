@@ -8,6 +8,11 @@
     height: 7vh;
 }
 
+#cardNavbar{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
 #navbar > div > * {
     margin-left: 50px;
     text-decoration: none;
