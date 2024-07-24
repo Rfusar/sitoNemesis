@@ -5,12 +5,12 @@ export default function Section_due(){
         <section id="section2">
             <div id="container1Section2">
                 <div id="card1Section2">
-                    <p style={{color: "#000", fontSize: "1.5rem", padding: "15px"}}>
-                        Nemesis affianca la tua azienda nello sviluppo di strumenti digitali in grado di sfruttare pienamente il potenziale 
+                    <p style={{color: "#000", fontSize: "1.2rem", padding: "15px"}}>
+                        <i>"Nemesis affianca la tua azienda nello sviluppo di strumenti digitali in grado di sfruttare pienamente il potenziale 
                         del World Wide Web e dei moderni sistemi informatici.
                         Gestisci in maniera più profittevelo e agile la tua attività, crea un ambiente di lavoro performante e 
                         coinvolgente per collaboratori e dipendenti.
-                        Offri ai tuoi clienti un accesso rapido a opzioni d'acquisto, assistenza, funzioni logistiche e amministrative
+                        Offri ai tuoi clienti un accesso rapido a opzioni d'acquisto, assistenza, funzioni logistiche e amministrative"</i>
                     </p>
                 </div>
             </div>

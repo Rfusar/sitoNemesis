@@ -8,12 +8,12 @@ export default function Navbar(){
                 <img src="/logoNemesis.svg" alt=""/>
                 <span>Prodotti</span>
                 <span>Consuleza</span>
-                <span>Contatti</span>
+                <a href="#section4">Contatti</a>
             </div>
             
             <div>
-                <Link to="/">Accedi</Link>    
-                <Link to="/">Registrati</Link>    
+                <Link to="/"></Link>    
+                <Link to="/"></Link>    
             </div>
         </nav>
     )

@@ -87,24 +87,25 @@
 }
 
 #card1Section2{
-    background-color: #fff;
-    border-radius: 10px;
+    border-left: .5px solid red;
+    border-bottom: .5px solid red;
 }
 
 .cardSection2{
     padding: 30px;
-    height: 80%;
+    height: 60%;
     width: 30%;
     background-color: #fff;
     color: #000;
     position: relative;
+    box-shadow: 3px 7px 10px #0002;
 }
 .description{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50%;
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
 }
 
 .imgCardSection2{
@@ -124,12 +125,16 @@
     padding: 10px 15px;
     font-size: 1.2rem;
     border: none;
+    color: #fff;
+    background-image: linear-gradient(90deg, rgb(255, 70, 82) 0px, rgb(255, 104, 70) 50%, rgb(255, 70, 82) 100%);
+    box-shadow: rgba(255, 70, 82, 0.2) 1px 3px 15px;
+    background-color: rgb(255, 70, 82);
 }
 
-#cardDescription1{border-left: 20px solid red;}
+/*#cardDescription1{border-left: 20px solid red;}
 #cardDescription2{border-left: 20px solid blue;}
 #cardDescription3{border-left: 20px solid green;}
-
+*/
 
 /*SECRION 3*/
 .TitoloCard{
