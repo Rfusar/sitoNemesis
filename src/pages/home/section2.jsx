@@ -1,6 +1,11 @@
 import './homepage.css'
+import {useRef} from 'react'
+import {cardsAnimate} from './animations.jsx'
 
 export default function Section_due(){
+    const cards = useRef([])
+    cardsAnimate(cards)
+
     return (
         <section id="section2">
             <div id="container1Section2">
@@ -16,7 +21,7 @@ export default function Section_due(){
             </div>
 
             <div id="container2Section2">
-                <div className="cardSection2" id="cardDescription1">
+                <div className="cardSection2" id="cardDescription1" ref={(c)=>(cards.current[0] = c)}>
                     <div className="intestazioneCardSection2">
                         <img className="imgCardSection2" src="https://www.nemesisag.com/images/icone/link%20%281%29.svg"/> 
                         <h1>Siti Web e applicazioni</h1>
@@ -30,7 +35,7 @@ export default function Section_due(){
                     <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
 
-                <div className="cardSection2" id="cardDescription2">
+                <div className="cardSection2" id="cardDescription2" ref={(c)=>(cards.current[1] = c)}>
                     <div className="intestazioneCardSection2">
                         <img className="imgCardSection2" src="https://www.nemesisag.com/images/icone/coding.svg" />
                         <h1>Automazione processi</h1>
@@ -44,7 +49,7 @@ export default function Section_due(){
                     <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
         
-                <div className="cardSection2" id="cardDescription3">
+                <div className="cardSection2" id="cardDescription3" ref={(c)=>(cards.current[2] = c)}>
                     <div className="intestazioneCardSection2">
                         <img className="imgCardSection2" src="https://www.nemesisag.com/images/icone/brain%20%281%29.svg"/>
                         <h1>Consulenza per il digitale</h1>
@@ -58,6 +63,7 @@ export default function Section_due(){
                     <button className="btnDettagli pointer">Vedi Dettagli</button>
                 </div>
             </div>
+            <script defer src="/src/pages/home/animations.js"></script>
 
         </section>
     )

@@ -40,10 +40,10 @@
 .itemMenu > a{
     color: #fff;
     text-decoration: none;
-    transition: 300ms translate;
+    transition: 200ms translate;
 }
 .itemMenu > a:hover{
-    translate: 10px 0 0;
+    translate: 3px 0 0;
     color: #c4bdbd
 }
 .borderRight{
