@@ -1,4 +1,5 @@
 import './homepage.css'
+import {Link} from 'react-router-dom'
 
 export default function Section_quattro(){
     return (
@@ -13,9 +14,9 @@ export default function Section_quattro(){
                     Mobile:+39 334 58 33 917 <br/>
                 </p>
                 <div id="divAction">
-                    <img src="/src/assets/call.png" alt=""/>
-                    <img src="/src/assets/email.png" alt=""/>
-                    <img src="/src/assets/maps.png" alt=""/>
+                    <Link><img src="/src/assets/call.png" alt=""/></Link>
+                    <Link><img src="/src/assets/email.png" alt=""/></Link>
+                    <a target="_blank" href='https://www.google.com/maps/place/Nemesis+Solutions+AG/@45.8332289,9.0310201,15z/data=!4m6!3m5!1s0x47869dbb1bcbf90b:0xdc2b3cb7140a0bf3!8m2!3d45.8342251!4d9.0342018!16s%2Fg%2F11gpjlbtd4?entry=ttu'><img src="/src/assets/maps.png" alt=""/></a>
                 </div>
             </div>
             

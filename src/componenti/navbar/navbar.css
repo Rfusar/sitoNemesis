@@ -18,3 +18,35 @@
     text-decoration: none;
     color: #fff;
 }
+/**/
+#MenuNavbar{
+    background-color: #262626;
+    max-height: 0px;
+    overflow: hidden;
+}
+#MenuNavbar > section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 30px;
+}
+.itemMenu{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.itemMenu > a{
+    color: #fff;
+    text-decoration: none;
+    transition: 300ms translate;
+}
+.itemMenu > a:hover{
+    translate: 10px 0 0;
+    color: #c4bdbd
+}
+.borderRight{
+    border-right: 1px solid red;
+    padding-right: 50px;
+}
