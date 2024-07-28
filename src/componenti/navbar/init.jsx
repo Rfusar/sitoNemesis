@@ -4,6 +4,8 @@ import {useEffect, useRef, useState} from 'react'
 import {useNavbarAnimate, tendinaMenu} from './animation.jsx'
 import Prodotti from './menu.jsx'
 
+import sendRequest from './sendRequest.jsx'
+
 
 export default function Navbar(){
     const navbarRef = useRef(null)
@@ -18,7 +20,7 @@ export default function Navbar(){
                     <span className='pointer' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>Prodotti</span>
                     <span className='pointer' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
                     <span>Consuleza</span>
-                    <a href="#section4">Contatti</a>
+                    <span className="pointer" onClick={sendRequest}>Contatti</span>
                 </div>
             
                 <div>

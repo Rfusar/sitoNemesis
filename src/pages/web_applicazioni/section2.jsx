@@ -26,6 +26,14 @@ export default function Section_due(){
                     <p>REACT</p>
                 </div>
             </div>
+            
+            <div>
+                <p>
+                    Applicazioni e siti Web a misura di business. <br/>
+                    Potenzia vendite, offerte e assistenza. <br/>
+                    Migliora la comunicazione aziendale e le iniziative commerciali con sistemi software scalabili, economici, efficaci.
+                </p>
+            </div>
 
             <div>
                 <h1>Applicazioni mobile e desktop</h1>
