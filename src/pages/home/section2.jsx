@@ -1,4 +1,5 @@
 import './homepage.css'
+import {Link} from 'react-router-dom'
 import {useRef} from 'react'
 import {cardsAnimate} from './animations.jsx'
 
@@ -32,7 +33,7 @@ export default function Section_due(){
                             applicazioni moderne. Nemesis è full-stack service development.
                         </p>
                     </div>
-                    <button className="btnDettagli pointer">Vedi Dettagli</button>
+                    <Link to="/web_applicazioni" className="btnDettagli pointer">Vedi Dettagli</Link>
                 </div>
 
                 <div className="cardSection2" id="cardDescription2" ref={(c)=>(cards.current[1] = c)}>
@@ -46,7 +47,7 @@ export default function Section_due(){
                             Sviluppa applicazioni e funzioni adeguate ai tuoi obiettivi.
                         </p>
                     </div>
-                    <button className="btnDettagli pointer">Vedi Dettagli</button>
+                    <Link to="/automatizza_processi" className="btnDettagli pointer">Vedi Dettagli</Link>
                 </div>
         
                 <div className="cardSection2" id="cardDescription3" ref={(c)=>(cards.current[2] = c)}>
@@ -60,11 +61,9 @@ export default function Section_due(){
                             dell'azienda, disegnando processi, servizi e applicazioni a misura d'essere umano.
                         </p>
                     </div>
-                    <button className="btnDettagli pointer">Vedi Dettagli</button>
+                    <Link to="" className="btnDettagli pointer">Vedi Dettagli</Link>
                 </div>
             </div>
-            <script defer src="/src/pages/home/animations.js"></script>
-
         </section>
     )
 }

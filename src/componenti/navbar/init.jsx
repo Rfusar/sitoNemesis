@@ -14,7 +14,7 @@ export default function Navbar(){
         <section id="cardNavbar" ref={navbarRef} >
             <nav id="navbar">
                 <div>
-                    <img src="/logoNemesis.svg" alt=""/>
+                    <Link to="/"><img src="/logoNemesis.svg" alt=""/></Link>
                     <span className='pointer' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>Prodotti</span>
                     <span className='pointer' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
                     <span>Consuleza</span>

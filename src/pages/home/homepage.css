@@ -1,6 +1,6 @@
 /*SFONDI*/
 #section1{
-    background-image: url("/src/assets/sfondoHomepage1.jpg");
+    background-image: url("/sfondoHomepage1.jpg");
     height: 100vh;
     display: flex;
 }
@@ -22,7 +22,7 @@
 }
 
 #section4{
-    background-image: url("/src/assets/sfondoHomepage3.jpg");
+    background-image: url("/sfondoHomepage3.jpg");
     height: 100vh;
     display: flex;
     flex-direction: row;

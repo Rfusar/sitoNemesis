@@ -35,10 +35,10 @@ export default function Section_tre(){
             </div>
 
             <div id="cardTecnologie">
-                <img src="/src/assets/docker.svg" alt="" height="70"/>
-                <img src="/src/assets/kubernets.svg" alt="" height="70"/>
-                <img src="/src/assets/nodejs.svg" alt="" height="70"/>
-                <img src="/src/assets/tensorflow-2.svg" alt="" height="70"/>
+                <img src="/src/assets/tecnologie/docker.svg" alt="" height="70"/>
+                <img src="/src/assets/tecnologie/kubernets.svg" alt="" height="70"/>
+                <img src="/src/assets/tecnologie/graphql-logo.svg" alt="" height="70"/>
+                <img src="/src/assets/tecnologie/tensorflow-2.svg" alt="" height="70"/>
             </div>
             
         </section>

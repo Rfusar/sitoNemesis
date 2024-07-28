@@ -20,15 +20,15 @@ export default function Section_uno(){
                     <p style={{fontSize: "1.6rem"}}>I sistemi alla quale ci affaciamo</p>
                     <div id="cardImgServices">
                         <div className="imgService">
-                            <img className="itemImgService" src="/src/assets/microsoft.svg" height="70" alt=""/>
+                            <img className="itemImgService" src="/src/assets/tecnologie/microsoft.svg" height="70" alt=""/>
                             <p>MICROSOFT</p>
                         </div>
                         <div className="imgService">
-                            <img className="itemImgService" src="/src/assets/google-cloud.svg" height="70" alt=""/>
+                            <img className="itemImgService" src="/src/assets/tecnologie/google-cloud.svg" height="70" alt=""/>
                             <p>GOOGLE CLOUD</p>
                         </div>
                         <div className="imgService">
-                            <img className="itemImgService" src="/src/assets/linux.png" height="70" alt=""/>
+                            <img className="itemImgService" src="/src/assets/tecnologie/linux.png" height="70" alt=""/>
                             <p>LINUX</p>
                         </div>
                     </div>
