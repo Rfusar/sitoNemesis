@@ -1,7 +1,7 @@
 /*SFONDI*/
 #section1{
     background-image: url("/sfondoHomepage1.jpg");
-    height: 100vh;
+    height: 80vh;
     display: flex;
 }
 
@@ -25,7 +25,8 @@
     background-image: url("/sfondoHomepage3.jpg");
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    padding: 50px 80px;
+    flex-direction: column;
     color: #fff;
 }
 
@@ -48,17 +49,17 @@
     padding: 80px 50px 0 0;
 }
 #cardServices{
-    flex: 2; 
     display: flex; 
     align-items: center; 
-    flex-direction: column; 
-    margin: 150px 100px 0 0;
+    flex-direction: row; 
+    color: #000;
+    background-color: #fff;
+    padding: 30px;
 }
 #cardImgServices{
     display: flex; 
     flex-direction: row; 
     justify-content: space-around; 
-    margin-top: 100px; 
     width: 100%;
 }
 .imgService{
@@ -94,7 +95,7 @@
 
 .cardSection2{
     padding: 30px;
-    height: 60%;
+    height: 80%;
     width: 30%;
     background-color: #fff;
     color: #000;
@@ -163,7 +164,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 70px;
+    margin: 30px 70px;
     color: #000;
 }
 .descriptionService2{
@@ -175,66 +176,20 @@
     margin: 30px;
 }
 #cardTecnologie{
-    margin: 0 500px;
+    margin: 50px 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 /*SECTION 4*/
-#card1Section4, #card2Section4{
+#cardSection4{
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    background-color: #0007;
-}
-
-
-
-#card2Section4 > form{
-    display: flex;
-    flex-direction: column;
-    height: 70%;
-    width: 50%;
-    padding: 50px 30px;
-    background-color: #fff2;
-    color: #fff;
-    box-shadow: 5px 10px 15px #000;
-}
-#card2Section4 > form > input{
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #fff4;
-    outline: none;
-    border: none;
-}
-
-#card2Section4 > form > textarea{
-    height: 70%;
-    padding: 10px;
-    background-color: #fff4;
-    outline: none;
-    border: none;
-}
-#divAction{
-    margin-top: 35px;
-    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
-#divAction > img{
-    width: 30px;
+#google-maps{
+    flex: 1
 }
-#btn_inviaRichiesta{
-    padding: 7px;
-    margin-top: 10px;
-    color: #fff;
-    background-color: green;
-    border: none;
-
-}
-

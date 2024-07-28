@@ -9,6 +9,25 @@ export default function Section_due(){
 
     return (
         <section id="section2">
+            <div id="cardServices">
+                <p style={{fontSize: "1.6rem"}}>I sistemi alla quale ci affaciamo</p>
+                <div id="cardImgServices">
+                    <div className="imgService">
+                        <img className="itemImgService" src="/src/assets/tecnologie/microsoft.svg" height="70" alt=""/>
+                        <p>MICROSOFT</p>
+                    </div>
+                    <div className="imgService">
+                        <img className="itemImgService" src="/src/assets/tecnologie/google-cloud.svg" height="70" alt=""/>
+                        <p>GOOGLE CLOUD</p>
+                    </div>
+                    <div className="imgService">
+                        <img className="itemImgService" src="/src/assets/tecnologie/linux.png" height="70" alt=""/>
+                        <p>LINUX</p>
+                    </div>
+                </div>
+            </div>
+
+
             <div id="container1Section2">
                 <div id="card1Section2">
                     <p style={{color: "#000", fontSize: "1.2rem", padding: "15px"}}>
@@ -36,21 +55,8 @@ export default function Section_due(){
                     <Link to="/web_applicazioni" className="btnDettagli pointer">Vedi Dettagli</Link>
                 </div>
 
-                <div className="cardSection2" id="cardDescription2" ref={(c)=>(cards.current[1] = c)}>
-                    <div className="intestazioneCardSection2">
-                        <img className="imgCardSection2" src="https://www.nemesisag.com/images/icone/coding.svg" />
-                        <h1>Automazione processi</h1>
-                    </div>
-                    <div className="description">
-                        <p>
-                            Automatizza processi e attività aziendali col supporto di Machine Learning e Intelligenza Artificiale. 
-                            Sviluppa applicazioni e funzioni adeguate ai tuoi obiettivi.
-                        </p>
-                    </div>
-                    <Link to="/automatizza_processi" className="btnDettagli pointer">Vedi Dettagli</Link>
-                </div>
         
-                <div className="cardSection2" id="cardDescription3" ref={(c)=>(cards.current[2] = c)}>
+                <div className="cardSection2" id="cardDescription3" ref={(c)=>(cards.current[1] = c)}>
                     <div className="intestazioneCardSection2">
                         <img className="imgCardSection2" src="https://www.nemesisag.com/images/icone/brain%20%281%29.svg"/>
                         <h1>Consulenza per il digitale</h1>
@@ -61,9 +67,10 @@ export default function Section_due(){
                             dell'azienda, disegnando processi, servizi e applicazioni a misura d'essere umano.
                         </p>
                     </div>
-                    <Link to="" className="btnDettagli pointer">Vedi Dettagli</Link>
+                    <Link to="/consulenza_digitale" className="btnDettagli pointer">Vedi Dettagli</Link>
                 </div>
             </div>
+            <div className="linea"></div>
         </section>
     )
 }

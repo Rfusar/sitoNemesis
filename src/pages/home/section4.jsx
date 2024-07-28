@@ -4,34 +4,14 @@ import {Link} from 'react-router-dom'
 export default function Section_quattro(){
     return (
         <section id="section4" className="sfondo">
-            <div className="overlay"></div>
-            <div id="card1Section4">
-                <h1 style={{marginBottom: "25px"}}>Contatta i nostri consulenti</h1>
-                <p>
-                    via Degli Albrici, 4 <br/>
-                    6830 Chiasso (CH) <br/>
-                    Tel:+41 91 682 93 00 <br/>
-                    Mobile:+39 334 58 33 917 <br/>
-                </p>
-                <div id="divAction">
-                    <Link><img src="/src/assets/call.png" alt=""/></Link>
-                    <Link><img src="/src/assets/email.png" alt=""/></Link>
-                    <a target="_blank" href='https://www.google.com/maps/place/Nemesis+Solutions+AG/@45.8332289,9.0310201,15z/data=!4m6!3m5!1s0x47869dbb1bcbf90b:0xdc2b3cb7140a0bf3!8m2!3d45.8342251!4d9.0342018!16s%2Fg%2F11gpjlbtd4?entry=ttu'><img src="/src/assets/maps.png" alt=""/></a>
-                </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11119.611061590944!2d9.0310201!3d45.8332289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47869dbb1bcbf90b%3A0xdc2b3cb7140a0bf3!2sNemesis%20Solutions%20AG!5e0!3m2!1sit!2sit!4v1722196088326!5m2!1sit!2sit" id="google-maps" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+            <div id="cardSection4">
+               <span>I nostri canali social</span>
+               <img src="/src/assets/social/facebook.png" height="50" alt="" /> 
+               <img src="/src/assets/social/infoJobs.png" height="80" alt="" /> 
+               <img src="/src/assets/social/linkedin-logo.png" height="50" alt="" /> 
             </div>
-            
-            <div id="card2Section4">
-                <form>
-                    <h1 style={{textAlign: "right"}}>Scrivici...</h1>
-                    <label>Email</label>
-                    <input required></input>
-                    <label>Telefono (Facoltativo)</label>
-                    <input></input>
-                    <label>Dacci un idea per aiutarti</label>
-                    <textarea></textarea>
-                    <button className="pointer" id="btn_inviaRichiesta">INVIA</button>
-                </form>
-            </div>
+
         </section>
     )
 }

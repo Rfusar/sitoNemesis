@@ -1,13 +1,13 @@
 import Init_homepage from './home/init.jsx'
 import Init_web_applicazioni from './web_applicazioni/init.jsx'
-import Init_automatizza_processi from './automatizza_processi/init.jsx'
+import Init_consulenza_digitale from './consulenza_digitale/init.jsx'
 
 function Homepage(){return <Init_homepage/>}
 function Web_applicazioni(){return <Init_web_applicazioni/>}
-function Automatizza_processi(){return <Init_automatizza_processi/>}
+function Consulenza_digitale(){return <Init_consulenza_digitale/>}
 
 export {
     Homepage, 
     Web_applicazioni,
-    Automatizza_processi
+    Consulenza_digitale,
 }

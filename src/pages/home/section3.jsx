@@ -34,6 +34,13 @@ export default function Section_tre(){
                 </div>
             </div>
 
+            <div style={{marginTop: "-100px"}}>
+                <p style={{color: "#000", margin: "0 70px", fontSize: "1.3rem"}}>
+                    Nemesis ti offre un team di sviluppo multidisciplinare, in grado di soddisfare le tue 
+                    esigenze operative, logistiche e amministrative, ottimizzando le risorse disponibili, 
+                    e accompagnando il personale nell'uso dei moderni sistemi digital
+                </p>
+            </div>
             <div id="cardTecnologie">
                 <img src="/src/assets/tecnologie/docker.svg" alt="" height="70"/>
                 <img src="/src/assets/tecnologie/kubernets.svg" alt="" height="70"/>

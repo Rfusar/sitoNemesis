@@ -1,0 +1,12 @@
+#cd_section1{
+    background-image: url("/consulenza_digitale.jpg");
+    height: 90vh;
+    display: flex;
+}
+
+#cd_section1 > div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #0004;
+}

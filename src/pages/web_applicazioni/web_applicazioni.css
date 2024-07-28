@@ -8,16 +8,13 @@
 #wa_section1Container1{
     flex: 1;
     display: flex;
-    font-size: 4rem; 
     align-items: center;
     background-color: #0006;
     padding-left: 30px; 
 }
 #wa_section1Container2{
     flex: 1;
-    font-size: 2rem; 
     display: flex;
-    align-items: center;
     background-color: #0006;
 }
 #divLinguaggi{

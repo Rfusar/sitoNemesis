@@ -13,8 +13,20 @@ body{
     font-size: 16px;
     font-family: "Inter", sans-serif;
 }
+
+.titoloPagina{
+    font-size: 5.3rem;
+    color: #fff;
+    margin: 50px;
+}
 .pointer{
     cursor: pointer;
+}
+
+.linea{
+    height: 1px;
+    margin: 50px 100px;
+    background-color: #0007;
 }
 
 .sfondo{

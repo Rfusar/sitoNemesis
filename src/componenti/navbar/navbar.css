@@ -6,6 +6,7 @@
     background-color: #000;
     color: #fff;
     height: 7vh;
+    box-shadow: 0 5px 20px #0007;
 }
 
 #cardNavbar{
@@ -14,6 +15,11 @@
     z-index: 1;
 }
 #navbar > div > * {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+#navbar > div > div > a {
     margin-left: 50px;
     text-decoration: none;
     color: #fff;

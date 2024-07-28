@@ -1,0 +1,11 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+}
+#footer > div > span {
+    margin-left: 15px;
+    cursor: pointer;
+}
