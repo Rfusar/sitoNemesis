@@ -3,10 +3,57 @@
     height: 90vh;
     display: flex;
 }
+#cd_section2{
+    height: 100vh;
+    background-color: #f5f4f2;
 
+}
+/*SECTION1*/
 #cd_section1 > div{
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #0004;
+    background-color: #0006;
+}
+
+/*SECTION2*/
+#cd_vantaggi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+#cd_vantaggi > div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+#cd_vantaggi{
+    background-color: #fff;
+
+}
+#cd_section2 > div{
+    flex: 1;
+}
+#cd_card2Section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cd_card2Section2 > div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgOK{
+    display: flex;
+    justify-content: end;
+}
+#cd_card2Section2 > div > *{
+    width: 50%;
+}
+#cd_card2Section2 > div > p{
+    margin-left: 20px;
 }
