@@ -40,6 +40,7 @@ const App = () => {
        Path.now = path
       if (path.now != Path.last && Path.last != "" && Path.now.includes("/prodotti/") ){
           try{
+              Path.last = path.now
                 document.querySelector("#animationCard").animate([
                     {opacity: 0, translate: "-20px 0 0"},
                     {opacity: 1, translate: "0 0 0"},
@@ -52,7 +53,7 @@ const App = () => {
           catch (errore){console.log(errore)}
 
       } 
-      else{Path.last = path}
+      else{}
   })
 
   return (

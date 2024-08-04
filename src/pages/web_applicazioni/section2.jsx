@@ -6,7 +6,7 @@ export default function Section_due({dati}){
                     <p>Linguaggi con cui sviluppiamo</p>
                 </div>
                 {dati.get_linguaggi.map((l, i)=>(
-                    <div key={i}>
+                    <div key={i} className="df-c-c-c" style={{gap: "20px"}}>
                         <img src={`/src/assets/linguaggi/${l.img}`} alt="" height="100"/>
                         <p>{l.title}</p>
                     </div>
