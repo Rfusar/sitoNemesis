@@ -34,9 +34,13 @@ export default function Navbar(){
                     <Link to="/"><img src="/logoNemesis.svg" alt=""/></Link>
                     <Link className="link" to="/web_applicazioni">Web e Applicazioni</Link>
                     <Link className="link" to="/consulenza_digitale">Consulenza Digitale</Link>
-                    <span className='pointer link' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>Prodotti</span>
+                    <Link className="pointer link" onClick={sendRequest}>Contatti</Link>
+                    <span 
+                            style={{borderLeft: ".5px solid red", paddingLeft: "10px"}}
+                            className='pointer link' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>
+                        Prodotti
+                    </span>
                     <span className='pointer link' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
-                    <span className="pointer link" onClick={sendRequest}>Contatti</span>
                 </div>
             
                 <div></div>

@@ -18,12 +18,17 @@
     margin-left: 50px;
     text-decoration: none;
     color: #fff;
+    transition: 300ms
 }
 #navbar > div > div > a {
     margin-left: 50px;
     text-decoration: none;
     color: #fff;
 }
+#navbar > div > a:hover {
+    text-shadow: 2px 3px 2px red, -2px -3px 2px green, 0 0 2px blue;
+}
+
 /**/
 #MenuNavbar{
     background-color: #262626;

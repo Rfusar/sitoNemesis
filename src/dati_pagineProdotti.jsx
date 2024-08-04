@@ -1,4 +1,4 @@
-export default function dati_prodotti(){
+function dati_prodotti(){
     return [
     {
         name: "Auto-order",
@@ -97,3 +97,23 @@ Perdiodi temporali`
 
 ]
 }
+
+function dati_API(){
+    return [
+        {
+            name: "Price Scanner API",
+            path: "price_scanner",
+        },
+        {
+            name: "Barcode API",
+            path: "lettura_barcode",
+        },
+        {
+            name: "Emus API",
+            path: "mass_messaging"
+        }
+    ]
+    
+}
+
+export {dati_prodotti, dati_API}

@@ -9,7 +9,7 @@ export default function Section_due({dati}){
 
     return (
         <section id="section2">
-            <div id="cardServices">
+            <div id="cardServices" style={{backgroundColor: "#f0eded"}}>
                 <p style={{fontSize: "1.6rem"}}>I sistemi alla quale ci affaciamo</p>
                 <div id="cardImgServices">
                 {dati.sistemi.map((s, i)=>(
