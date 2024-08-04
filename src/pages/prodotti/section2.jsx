@@ -5,7 +5,7 @@ export default function Section_due({d}){
         <>
             <section id="prodotto_section2">
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-                    <img src="/src/assets/dashboard.png" alt="" width="800" />
+                    <img src="/src/assets/icone/dashboard.png" alt="" width="800" />
                 </div>
 
                 <div style={{display: "flex", justifyContent: "center", flexDirection: "column", padding:"20px", alignItems: "center", color: "#000"}}>
@@ -20,10 +20,10 @@ export default function Section_due({d}){
                     <p>GoLang, GraphQL, Kubernetes, React.</p>
                 </div> 
                 <div>
-                    <img src="/src/assets/linguaggi/go-logo.svg" alt="" width="100"/>
+                    <img src="/src/assets/linguaggi/golang.svg" alt="" width="100"/>
                 </div>
                 <div>
-                    <img src="/src/assets/tecnologie/graphql-logo.svg" alt="" width="100"/>
+                    <img src="/src/assets/tecnologie/graphql.svg" alt="" width="100"/>
                 </div>
                 <div>
                     <img src="/src/assets/tecnologie/kubernets.svg" alt="" width="100"/>

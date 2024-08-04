@@ -8,7 +8,7 @@ export default function Section_tre({d}){
                     <h1 style={{fontSize: "3rem"}}>Integra i tuoi sistemi aziendali con {d.name}</h1> 
                </div> 
                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-                    <img src="/src/assets/schermate.png" alt="" width="700"/>
+                    <img src="/src/assets/icone/schermate.png" alt="" width="700"/>
                 </div> 
             </div>
 

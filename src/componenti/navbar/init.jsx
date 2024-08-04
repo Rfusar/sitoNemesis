@@ -9,18 +9,16 @@ import sendRequest from './sendRequest.jsx'
 //*Variabili
 const prodottiNavbar=[
     {nav: "AUTOMAZIONE ORDINI", product: "order_automation"},
-    {nav: "GATEWAY SMS E SOCIAL", product: "mass_messaging"},
     {nav: "GESTIONE DOCUMENTALE NPL", product: "documents_NPL"},
     {nav: "GESTIONE DOCUMENTALE FINANZIAMENTI", product: "financial_document_management"},
     {nav: "GESTIONE ASSENZE (con IVR)", product: "absence_management"},
     {nav: "GESTIONE MAGAZZINO (Repository GDPR)", product: "warehouse_management"},
     {nav: "AUTOMAZIONI DOCUMENTI LOGISTICA", product: "logistic_managment_for_paper_documents"},
-    {nav: "SCANSIONE BARCODE", product: "lettura_barcode"},
-    {nav: "PRICE SCANNER", product: "price_scanner"},
 ]
 const prodottiNavbarAPI = [
-    {nav: "PDF", product: "X"},
-    {nav: "SMS", product: "X"},
+    {nav: "SCANSIONE BARCODE", product: "lettura_barcode"},
+    {nav: "PRICE SCANNER", product: "price_scanner"},
+    {nav: "GATEWAY SMS E SOCIAL", product: "mass_messaging"},
 ]
 
 //component
@@ -32,13 +30,13 @@ export default function Navbar(){
     return (
         <section id="cardNavbar" ref={navbarRef} >
             <nav id="navbar">
-                <div>
+                <div style={{color: "#fff", textDecoration: "none"}}>
                     <Link to="/"><img src="/logoNemesis.svg" alt=""/></Link>
-                    <span className='pointer' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>Prodotti</span>
-                    <span className='pointer' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
-                    <span className="pointer" onClick={sendRequest}>Contatti</span>
-                    <Link to="/web_applicazioni">Web e Applicazioni</Link>
-                    <Link to="/consulenza_digitale">Consulenza Digitale</Link>
+                    <Link className="link" to="/web_applicazioni">Web e Applicazioni</Link>
+                    <Link className="link" to="/consulenza_digitale">Consulenza Digitale</Link>
+                    <span className='pointer link' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>Prodotti</span>
+                    <span className='pointer link' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
+                    <span className="pointer link" onClick={sendRequest}>Contatti</span>
                 </div>
             
                 <div></div>
@@ -46,6 +44,7 @@ export default function Navbar(){
             </nav>
             <div id="MenuNavbar">
                 <Prodotti name={contentMenu} prodotti={prodottiNavbar} API={prodottiNavbarAPI}/>
+                <section></section>
             </div>
         </section>
     )

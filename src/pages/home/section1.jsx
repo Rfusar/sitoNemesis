@@ -1,6 +1,7 @@
 import './homepage.css'
 
-export default function Section_uno(){
+export default function Section_uno({dati}){
+    console.log(dati)
     return (
         <section id="section1" className="sfondo">
             <div id="container1Section1">

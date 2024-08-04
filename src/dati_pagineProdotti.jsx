@@ -2,7 +2,7 @@ export default function dati_prodotti(){
     return [
     {
         name: "Auto-order",
-        prefisso: "ao",
+        img: "automazione_ordini.jpg",
         path: "order_automation",
         title: "Automazione Ordini",
         description1: `Auto-Order è una applicazione multicanale per la gestione completa di ordini e forniture. Facilmente integrabile nei più diffusi sistemi gestionali, ti permette di automatizzare il ciclo completo di ordini e forniture.`,
@@ -12,15 +12,15 @@ Auto-Order è un'applicazione "liquida" in grado di conformarsi agli standard di
     },
     {
         name: "Umes",
-        prefisso: "mm",
+        img: "messaggistica_massiva.jpg",
         path: "mass_messaging",
-        title: "Messaggistica Massiva",
+        title: "Messaggistica Massiva API",
         description1: "Umes è un'applicazione per la messaggistica di massa, semplice, economica e leggera. Puoi integrarla nei tuoi applicativi aziendali o accedervi via Web tramite dashboard, e inviare migliaia di messaggi e SMS in un click",
         description2: "UMES è un gateway SMS e Social di livello enterprise. L'applicazione permette di inviare e ricevere messaggi su canali di comunicazione differenti (SMS, Telegram, WhatsAPP *, Facebook Messenger *, eMail, RCS e FAX). Questo vi consentirà di raggiungere i vostri lead o prospect con gli strumenti a loro più vicini e di renderli molto più partecipativi nell'esecuzione delle loro attività lavorative. E' possibile integrare Umes tramite le API messe a disposizione o tramite Kofax Communication Server",
     },
     {
         name: "Collaterally",
-        prefisso: "dnpl",
+        img: "documenti_npl.jpg",
         path: "documents_NPL",
         title: "Gestione Documenti NPL",
         description1: "Collaterally è una cloud application per la gestione documentale delle pratiche relative ai Non Performing Loan e Unlike To Pay",
@@ -36,7 +36,7 @@ esportare dati e informazioni verso altri sistemi gestionali`,
     {
 
         name: "Lend Manager",
-        prefisso: "lm",
+        img: "gestione_documentale_finanziaria",
         path: "financial_document_management",
         title: "Gestione Documentale Finanziaria",
         description1: "Lend Manager è la soluzione ideale per la gestione documentale finanziaria relativa alle pratiche di finanziamento. L'applicazione è progettata per automatizzare i processi di acquisizione documentale, controllare dati e evadere pratiche, tagliando tempi di lavorazione, errori e refusi.",
@@ -45,7 +45,7 @@ Lend Manager è predisposto per l'integrazione con i sistemi degli istituti cred
     },
     {
         name: "Sickness",
-        prefisso: "ga",
+        img: "",
         path: "absence_management",
         title: "Gestione Assenze",
         description1: "Sickness è un servizio in full outsourcing che riduce notevolmente le attività operative utili all’accettazione delle richieste di assenza per malattia",
@@ -53,7 +53,7 @@ Lend Manager è predisposto per l'integrazione con i sistemi degli istituti cred
     },
     {
         name: "Pelly",
-        prefisso: "gm",
+        img: "gestione_mgazzino.jpg",
         path: "warehouse_management",
         title: "Gestione Magazzino",
         description1: "Pelly è una applicazione per la gestione del magazzino 4.0. Pelly monitora e controlla ogni singola operazione",
@@ -63,7 +63,7 @@ Pelly è progettato anche per controllare e monitorare lo stato delle forniture`
     },
     {
         name: "Folder Manager",
-        prefisso: "lmfpd",
+        img: "",
         path: "logistic_managment_for_paper_documents",
         title: "Gestione Logistica Per Documenti Cartacei",
         description1: "Folder Manager è una applicazione che semplifica la gestione della logistica dei documenti cartacei, controllando e monitorando ogni singolo passaggio, dall'acquisizione allo stoccaggio degli stessi.",
@@ -72,7 +72,7 @@ Il servizio viene erogato in modalità SaaS (Software as a service), e questo co
     },
     {
         name: "Barcode API",
-        prefisso: "bar_api",
+        img: "",
         path: "lettura_barcode",
         title: "Lettura Barcode API",
         description1: `Barcode è una Progressive Web App, facilmente integrabile, che traccia ogni operazione e movimento`,
@@ -82,7 +82,7 @@ L'applicazione è completa di interfaccie web - desktop e mobile - che permetton
     },
     {
         name: "Price Scanner API",
-        prefisso: "ps_api",
+        img: "",
         path: "price_scanner",
         title: "Price Scanner API",
         description1: `Price Scanner è un'applicazione semplice, veloce ed efficace che recupera i prezzi di prodotti e servizi in tempo reale.`,

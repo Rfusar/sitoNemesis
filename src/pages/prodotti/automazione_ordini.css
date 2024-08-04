@@ -1,11 +1,3 @@
-#ao_section1{background-image: url("/automazione_ordini.jpg")}
-#mm_section1{background-image: url("/messaggistica_massiva.jpg")}
-#dnpl_section1{background-image: url("/documenti_npl.jpg")}
-#lm_section1{background-image: url("/gestione_documentale_finanziaria.jpg")}
-#ga_section1{background-image: url("/gestione_assenze.jpg")}
-#gm_section1{background-image: url("/gestione_magazzino.jpg")}
-#lmfpd_section1{background-image: url("/gestione_magazzino.jpg")}
-
 .sfondoProdotto{
     height: 70vh;
     display: flex;
