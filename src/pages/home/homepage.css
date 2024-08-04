@@ -6,7 +6,7 @@
 }
 
 #section2{
-    background-color: #f5f4f2;
+    background-color: var(--bg-base);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 
 #section3{
-    background-color: #f5f4f2;
+    background-color: var(--bg-base);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@
     color: #000;
     background-color: #fff;
     padding: 30px;
+    box-shadow: 0 5px 10px #0001;
 }
 #cardImgServices{
     display: flex; 
@@ -140,18 +141,7 @@
     translate: 0 -2px 0;
 }
 
-/*#cardDescription1{border-left: 20px solid red;}
-#cardDescription2{border-left: 20px solid blue;}
-#cardDescription3{border-left: 20px solid green;}
-*/
-
 /*SECRION 3*/
-.TitoloCard{
-    text-align: center;
-    font-size: 3rem;
-    color: #000;
-}
-
 #cardServices2{
     display: flex;
     flex-direction: row;

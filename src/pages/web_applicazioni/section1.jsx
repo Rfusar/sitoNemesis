@@ -1,11 +1,10 @@
-export default function Section_uno(){
+export default function Section_uno({titolo}){
     return (
-        <section id="section1_web_applicazioni" className="sfondo">
+        <section id="wa_section1" className="sfondo">
             <div id="wa_section1Container1">
-                <h1 className="titoloPagina">Applicazioni Web, <br/> Search Engine Marketing, <br/>Analytics</h1>
+                <h1 className="titoloPagina">{titolo}</h1>
             </div> 
-            <div id="wa_section1Container2">
-            </div>
+            <div></div>
         </section>
     )
 }

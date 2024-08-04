@@ -3,10 +3,27 @@ import './navbar.css'
 import {useEffect, useRef, useState} from 'react'
 import {useNavbarAnimate, tendinaMenu} from './animation.jsx'
 import Prodotti from './menu.jsx'
-
 import sendRequest from './sendRequest.jsx'
 
 
+//*Variabili
+const prodottiNavbar=[
+    {nav: "AUTOMAZIONE ORDINI", product: "order_automation"},
+    {nav: "GATEWAY SMS E SOCIAL", product: "mass_messaging"},
+    {nav: "GESTIONE DOCUMENTALE NPL", product: "documents_NPL"},
+    {nav: "GESTIONE DOCUMENTALE FINANZIAMENTI", product: "financial_document_management"},
+    {nav: "GESTIONE ASSENZE (con IVR)", product: "absence_management"},
+    {nav: "GESTIONE MAGAZZINO (Repository GDPR)", product: "warehouse_management"},
+    {nav: "AUTOMAZIONI DOCUMENTI LOGISTICA", product: "logistic_managment_for_paper_documents"},
+    {nav: "SCANSIONE BARCODE", product: "lettura_barcode"},
+    {nav: "PRICE SCANNER", product: "price_scanner"},
+]
+const prodottiNavbarAPI = [
+    {nav: "PDF", product: "X"},
+    {nav: "SMS", product: "X"},
+]
+
+//component
 export default function Navbar(){
     const navbarRef = useRef(null)
     const [contentMenu, setContentMenu] = useState("")
@@ -28,7 +45,7 @@ export default function Navbar(){
 
             </nav>
             <div id="MenuNavbar">
-                <Prodotti prodotto={contentMenu}/>
+                <Prodotti name={contentMenu} prodotti={prodottiNavbar} API={prodottiNavbarAPI}/>
             </div>
         </section>
     )

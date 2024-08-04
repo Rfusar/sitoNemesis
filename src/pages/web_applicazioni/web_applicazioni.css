@@ -1,27 +1,41 @@
-#section1_web_applicazioni{
+/*SFONDI*/
+#wa_section1{
     background-image: url("/web_applicazioni.jpg");
     height: 90vh;
     display: flex;
     flex-direction: row;
     color: #fff;
 }
+
+#wa_section2{
+    background-image: linear-gradient(to top, #f0eded, #ded7d7);
+    height: 100vh;
+}
+#wa_section3{
+    background-color: var(--bg-base);
+    height: 100vh
+}
+
+/*SECTION1*/
+#wa_section1 > div{
+    flex: 1;
+    background-color: #0006;
+}
 #wa_section1Container1{
     flex: 1;
     display: flex;
     align-items: center;
-    background-color: #0006;
     padding-left: 30px; 
 }
-#wa_section1Container2{
-    flex: 1;
-    display: flex;
-    background-color: #0006;
-}
+
+/*SECTION2*/
 #divLinguaggi{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px 100px;
+    padding: 50px;
     background-color: #fff;
+    width: 100%;
+    box-shadow: 0 5px 10px #0001;
 }
 

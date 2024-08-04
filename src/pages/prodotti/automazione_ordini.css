@@ -1,0 +1,71 @@
+#ao_section1{background-image: url("/automazione_ordini.jpg")}
+#mm_section1{background-image: url("/messaggistica_massiva.jpg")}
+#dnpl_section1{background-image: url("/documenti_npl.jpg")}
+#lm_section1{background-image: url("/gestione_documentale_finanziaria.jpg")}
+#ga_section1{background-image: url("/gestione_assenze.jpg")}
+#gm_section1{background-image: url("/gestione_magazzino.jpg")}
+#lmfpd_section1{background-image: url("/gestione_magazzino.jpg")}
+
+.sfondoProdotto{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.sfondoProdotto > div{
+    flex: 1;
+    background-color: #0007;
+}
+
+#prodotto_section1Container1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+#prodotto_section2{
+    background-color: var(--bg-base);
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+#prodotto_section2 > div{
+    flex: 1;
+}
+
+#prodotto_section3{
+    height: 130vh;
+    background-color: #111;
+    color: #fff;
+}
+#prodotto_card1Section3{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    padding: 0 50px;
+}
+#prodotto_card1Section3 > div{
+    flex: 1
+}
+#prodotto_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #fff;
+    gap: 50px;
+}
+
+#prodotto_grid > div{
+    padding: 30px;
+}
+.titolo_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.testo_titolo_grid{
+    font-size: 1.8rem
+}

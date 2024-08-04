@@ -3,7 +3,7 @@ import './homepage.css'
 export default function Section_tre(){
     return (
         <section id="section3">
-            <h1 className="TitoloCard">Soluzioni per l'automazione intelligente</h1>
+            <h1 className="titoloSezione">Soluzioni per l'automazione intelligente</h1>
 
             <div id="cardServices2">
                 <div className="itemCardService2">
