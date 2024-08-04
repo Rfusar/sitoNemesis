@@ -40,7 +40,9 @@ export default function Navbar(){
                             className='pointer link' onMouseOver={()=>tendinaMenu("Prodotti", setContentMenu)}>
                         Prodotti
                     </span>
-                    <span className='pointer link' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
+                    <span 
+                        style={{borderLeft: ".5px solid red", paddingLeft: "10px"}}
+                        className='pointer link' onMouseOver={()=>tendinaMenu("API", setContentMenu)}>API</span>
                 </div>
             
                 <div></div>

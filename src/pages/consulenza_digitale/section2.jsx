@@ -1,29 +1,32 @@
-export default function Section_due(){
+export default function Section_due({dati}){
     return (
         <section id="cd_section2">
             <div id="cd_vantaggi">
                 <div>
-                    <p>
-                        Gestisci in modo più profittevole i tuoi affari, sviluppando innovazione tecnologica e di processo. 
-                        Crea un ambiente di lavoro collaborativo e coinvolgente, e permetti a dipendenti, management e 
-                        clienti di utilizzare servizi e funzioni aziendali ovunque si trovino, e con qualsiasi dispositivo.
-                        Rafforza la tua azienda, implementa soluzioni digitali per il tuo business
-                    </p>
+                    <p>{dati.description}</p>
                 </div>
+
                 <div id="cd_card2Section2">
-                    <div>
-                        <div className="imgOK"><img src="/src/assets/ok.png" height="50" alt=""/></div>
-                        <p>ABBATTI TEMPI E COSTI</p>
+                {dati.obbiettivi.map((o, i)=>(
+                    <div key={i}>
+                        <div className="imgOK"><img src="/src/assets/icone/ok.png" height="50" alt=""/></div>
+                        <p>{o}</p>
                     </div>
-                    <div>
-                        <div className="imgOK"><img src="/src/assets/ok.png" height="50" alt=""/></div>
-                        <p>SEMPLIFICA LE PROCEDURE</p>
-                    </div>
-                    <div>
-                        <div className="imgOK"><img src="/src/assets/ok.png" height="50" alt=""/></div>
-                        <p>MIGLIORA LE PERFORMANCE</p>
-                    </div>
+
+                ))}
                 </div>
+            </div>
+
+            <div style={{display: "grid", gridTemplateColumns: "auto auto auto", padding: "5% 20%", gap: "5px", backgroundColor: "#000"}}>
+            {dati.cards.map((c, i)=>(
+                <div className="cd_card">
+                    <h1>
+                        <img src="/src/assets/icone/circle.svg" height="20px"/>
+                        {c.titolo}</h1>
+                    <p>{c.description}</p>
+                </div>
+    
+            ))}   
             </div>
         </section>
     )

@@ -13,7 +13,11 @@
 }
 #wa_section3{
     background-color: var(--bg-base);
-    height: 100vh
+}
+#wa_section4{
+    background-color: var(--bg-base);
+    height: 140vh;
+
 }
 
 /*SECTION1*/
@@ -39,3 +43,25 @@
     box-shadow: 0 5px 10px #0001;
 }
 
+
+/*SECTION3*/
+#wa_card1Section3{
+    background-color: #000;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+
+}
+#wa_card1Section3 > div {
+    flex: 1;
+    text-align: center;
+}
+
+.wa_itemCardSecion3 > div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap: 50px;
+}
